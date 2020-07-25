@@ -9,12 +9,12 @@ main(int argc, char *argv[])
   
   if(argc < 2){
     fprintf(2, "Usage: input seconds...\n");
-    exit(1);
+    exit();
   }
 
   if(argc > 2){
     fprintf(2, "Error: too many arguments...\n");
-    exit(1);
+    exit();
   }
 
   i = atoi(argv[1]);
@@ -28,5 +28,5 @@ main(int argc, char *argv[])
 //       write(1, "\n", 1);
 //     }
 //   }
-  exit(0);
+  exit();
 }
