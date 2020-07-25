@@ -18,6 +18,7 @@ main(int argc, char *argv[])
   }
 
   i = atoi(argv[1]);
+  fprintf(1, "...\n");
   sleep(i);
 
 //   for(i = 1; i < argc; i++){
